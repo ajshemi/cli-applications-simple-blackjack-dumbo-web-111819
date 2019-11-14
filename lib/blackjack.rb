@@ -71,7 +71,9 @@ def runner
   while result<=21 do 
     num=initial_round
     result=hit?(num)
+    display_card_total(result)
   end
+  end_game
   # code runner here
 end
     
