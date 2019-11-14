@@ -67,10 +67,11 @@ end
 
 def runner
   welcome
-  num=initial_round
-  result=hit?(num)
-  
-  
+  result=0
+  while result<=21 do 
+    num=initial_round
+    result=hit?(num)
+  end
   # code runner here
 end
     
